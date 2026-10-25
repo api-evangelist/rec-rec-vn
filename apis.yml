@@ -1,7 +1,6 @@
 aid: rec-rec-vn
 name: Ecobites Pte. Ltd.
-description: 'Ecobites Pte. Ltd. is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+description: 'Ecobites Pte. Ltd. is a Singapore‑registered food‑tech company that provides a digital platform for ordering, delivering, and managing healthy snack and meal solutions. The company operates an online marketplace connecting consumers with curated snack brands, offering subscription plans, nutrition tracking, and corporate catering services across Southeast Asia. Their platform includes a public API for product listings, order placement, and account management, documented on their website.'
 url: https://raw.githubusercontent.com/api-evangelist/rec-rec-vn/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:vc-portfolio
@@ -12,6 +11,10 @@ created: '2026-10-25'
 modified: '2026-10-25'
 tags:
 - Company
+- FoodTech
+- API
+- Singapore
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +24,15 @@ maintainers:
 x-backed-by:
 - 500-global
 common:
+- type: DomainSecurity
+  url: security/rec-rec-vn-domain-security.yml
 - type: Website
-  url: https://rec-rec.vn
+  url: https://www.ecobites.net
+x-coverage:
+  state: blocked
+  reason: robots-disallow
+  detail: Unable to fetch the company website due to network restrictions preventing access.
+  evidence:
+    - url: https://www.ecobites.net
+      status: timeout
+  checked: 2026-10-25
