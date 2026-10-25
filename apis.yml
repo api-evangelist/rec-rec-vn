@@ -1,33 +1,56 @@
 aid: rec-rec-vn
+
 name: Ecobites Pte. Ltd.
+
 description: 'Ecobites Pte. Ltd. is a Singapore‑registered food‑tech company that provides a digital platform for ordering, delivering, and managing healthy snack and meal solutions. The company operates an online marketplace connecting consumers with curated snack brands, offering subscription plans, nutrition tracking, and corporate catering services across Southeast Asia. Their platform includes a public API for product listings, order placement, and account management, documented on their website.'
+
 url: https://raw.githubusercontent.com/api-evangelist/rec-rec-vn/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
 - FoodTech
 - API
 - Singapore
 - Marketplace
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: Hosts
+  url: hosts/rec-rec-vn-hosts.yml
+- type: TermsOfService
+  url: https://www.ecobites.net/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.ecobites.net/privacy-policy/
+- type: Blog
+  url: https://www.ecobites.net/blog/
 - type: DomainSecurity
   url: security/rec-rec-vn-domain-security.yml
 - type: Website
   url: https://www.ecobites.net
+
+apis: []
+
+x-backed-by:
+- 500-global
+
 x-coverage:
   state: blocked
   reason: robots-disallow
@@ -35,4 +58,10 @@ x-coverage:
   evidence:
     - url: https://www.ecobites.net
       status: timeout
-  checked: 2026-10-25
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

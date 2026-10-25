@@ -4,9 +4,9 @@ source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.ecobites.net
   https: true
-  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate
-    (_ssl.c:1127)'
-  hsts: null
+  tls_version: TLSv1.3
+  cert_expires: Jan 18 22:25:05 2027 GMT
+  hsts: false
 domains:
 - domain: ecobites.net
   dnssec: false

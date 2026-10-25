@@ -1,0 +1,18 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/rec-rec-vn/integrations
+- https://zapier.com/apps/ecobites-pte-ltd/integrations
+- https://n8n.io/integrations/rec-rec-vn/
+- https://composio.dev/toolkits/rec-rec-vn
+- https://monid.ai/tools/rec-rec-vn
+checked:
+- https://composio.dev/toolkits/rec-rec-vn
+- https://monid.ai/tools/rec-rec-vn
+- https://n8n.io/integrations/rec-rec-vn/
+- https://zapier.com/apps/ecobites-pte-ltd/integrations
+- https://zapier.com/apps/rec-rec-vn/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
